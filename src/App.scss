@@ -1,0 +1,18 @@
+$bg-color: blue;
+$text-color: red;
+$font-stack: Arial, sans-serif;
+
+.App {
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+
+  h1 {
+    color: $text-color;
+    font-family: $font-stack;
+    font-size: 3rem;
+  }
+}
